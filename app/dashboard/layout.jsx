@@ -1,7 +1,7 @@
 import React from "react";
 
-function DashboardLayout({ Children }) {
-  return <div>{Children}</div>;
+function DashboardLayout({ children }) {
+  return <div>{children}</div>;
 }
 
 export default DashboardLayout;
